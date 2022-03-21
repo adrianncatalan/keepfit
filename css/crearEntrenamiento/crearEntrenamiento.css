@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    border: 1px solid black;
+    width: 40%;
+    height: 30em;
+}
+
+table thead th {
+    border: 1px solid black;
+}
+
+table tbody tr td {
+    border: 1px solid black;
+}

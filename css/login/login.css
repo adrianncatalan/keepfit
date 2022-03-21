@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../../img/login.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+.titular {
+    display: flex;
+    width: 37%;
+    flex-direction: column;
+}
+
+.titular h1 {
+    color: crimson;
+    font-size: 6em;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: sans-serif;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.titular p {
+    font-family: sans-serif;
+    color: #2f2f2f;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border: 1px solid #2f2f2f;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    width: 250%;
+    min-width: 150%;
+    padding: 1.5em;
+    background-color: #eeeeee;
+}
+
+.formulario a {
+    margin-bottom: 2em;
+    text-decoration: none;
+    color: crimson;
+    font-family: sans-serif;
+}
+
+input[type="submit"] {
+    background-color: crimson;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    opacity: 0.9;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    transition: all ease 0.3s;
+    opacity: 1;
+}
+
+input[type="button"] {
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    opacity: 0.9;
+    border: none;
+}
+
+input[type="button"]:hover {
+    transition: all ease 0.3s;
+    opacity: 1;
+}
+
+.linea {
+    width: 250%;
+    height: 1px;
+    background-color: #2f2f2f;
+    margin-bottom: 2.4em;
+}
