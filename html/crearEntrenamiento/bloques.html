@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿En cuántos bloques quieres dividir tu entrenamiento?</title>
+    <script src="../../js/crearEntrenamiento.js"></script>
+    <style>
+        * {
+            background-color: #2f2f2f;
+        }
+        
+        div {
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+        
+        div h2 {
+            color: #fff;
+            margin-top: 2em;
+        }
+        
+        #containerTabla {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        select {
+            color: #fff;
+            display: flex;
+        }
+        
+        .options {
+            color: #fff;
+            display: flex;
+        }
+        
+        #container-question {
+            display: flex;
+            justify-content: space-between;
+            padding: 2em 4em;
+        }
+        
+        #container-question div {
+            color: #fff;
+            background-color: crimson;
+            width: 5%;
+            padding: 1em;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+        
+        #container-question div:hover {
+            color: crimson;
+            background-color: #fff;
+            transition: 0.3s ease;
+        }
+        
+        table {
+            border: 1px solid white;
+            width: 40%;
+            height: 20em;
+            color: #fff;
+            border-collapse: collapse;
+        }
+        
+        table thead th {
+            border: 1px solid white;
+            padding: 1em;
+        }
+        
+        table tbody tr td {
+            border: 1px solid white;
+            padding: 1em;
+        }
+        
+        .containerBtn {
+            display: flex;
+            justify-content: center;
+            padding: 3em;
+        }
+        
+        .btn {
+            color: #fff;
+            font-size: 1.5em;
+            padding: 1em;
+            cursor: pointer;
+        }
+        
+        #imagenes {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        #imagenes img {
+            max-width: 50px;
+            min-height: 50px;
+            margin: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pregunta">
+        <h2>¿En cuántos bloques quieres dividir tu entrenamiento?</h2>
+    </div>
+    <div id="container-question">
+        <div class="bloque">1</div>
+        <div class="bloque">2</div>
+        <div class="bloque">3</div>
+        <div class="bloque">4</div>
+    </div>
+
+    <div id="containerTabla">
+        <div>
+            <table>
+                <thead>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sabado</th>
+                    <th>Domingo</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="select">
+            <select name="" id="">
+                <optgroup class="options">
+                    <option value="">Ejercicios</option>
+                    <option value="">Biceps</option>
+                    <option value="">Triceps</option>
+                    <option value="">Pectorales</option>
+                    <option value="">Dorsales</option>
+                    <option value="">Hombro</option>
+                    <option value="">Antebrazo</option>
+                    <option value="">Pierna</option>
+                    <option value="">Cardio</option>
+                </optgroup>
+            </select>
+
+            <div id="imagenes">
+                <img src="../../img/biceps1.gif" alt="">
+                <img src="../../img/biceps2.gif" alt="">
+                <img src="../../img/biceps3.gif" alt="">
+                <img src="../../img/biceps4.gif" alt="">
+                <img src="../../img/biceps5.gig.gif" alt="">
+                <img src="../../img/biceps6.gif" alt="">
+                <img src="../../img/biceps7.gif" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

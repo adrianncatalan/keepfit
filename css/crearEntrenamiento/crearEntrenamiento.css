@@ -3,16 +3,16 @@
     padding: 0;
 }
 
-table{
+.tabla{
     border: 1px solid black;
     width: 40%;
     height: 30em;
 }
 
-table thead th {
+.tabla thead th {
     border: 1px solid black;
 }
 
-table tbody tr td {
+.tabla tbody tr td {
     border: 1px solid black;
 }
