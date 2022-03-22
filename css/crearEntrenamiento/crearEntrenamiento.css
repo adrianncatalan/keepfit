@@ -72,7 +72,7 @@ nav ul li a:hover {
 #main1 {
     margin-top: 3em;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
 }
 
@@ -87,7 +87,6 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     margin: 0 3em 2em;
-
 }
 
 .seleccionar {
@@ -104,7 +103,7 @@ nav ul li a:hover {
 
 #containerBloque div {
     color: #fff;
-    background-color: crimson;
+    box-shadow: 1px 1px 1px 1px #fff;
     width: 15%;
     padding: 0.3em;
     border-radius: 10px;
@@ -114,12 +113,14 @@ nav ul li a:hover {
     text-align: center;
     font-family: sans-serif;
     margin: 1em;
+    background-color: crimson;
 }
 
 #containerBloque div:hover {
-    color: crimson;
+    color: #2f2f2f;
     background-color: #fff;
     transition: 0.3s ease;
+    box-shadow: 1px 1px 1px 1px crimson;
 }
 
 #containerTabla {
@@ -132,7 +133,7 @@ nav ul li a:hover {
 #containerTabla {
     display: flex;
     justify-content: center;
-    margin-top: 1em;
+    margin: 0;
 }
 
 table {
@@ -140,7 +141,6 @@ table {
     height: 20em;
     color: #fff;
     border-collapse: collapse;
-
 }
 
 table thead th {
@@ -164,10 +164,12 @@ table tbody tr td {
     opacity: 0.3;
 }
 
+/* Estilos del botón creado */
+
 .containerBtn {
     display: flex;
     justify-content: flex-start;
-    margin: 1em 0 1em 3em;
+    margin: 2em 0 0.1em 3em;
 }
 
 .btn {
@@ -177,11 +179,68 @@ table tbody tr td {
     cursor: pointer;
     background-color: #2f2f2f;
     font-weight: bolder;
-
 }
 
 .btn:hover {
     transition: 0.1s ease;
     background: #fff;
     color: crimson;
+}
+
+/* Estilos de los ejercicios */
+
+#containerEjercicios {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+
+}
+
+#btnsGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2.5em;
+}
+
+#btnsGroup button {
+    padding: 1em;
+    margin-right: 1em;
+    font-family: 1em;
+    background: crimson;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#btnsGroup button:hover {
+    box-shadow: 1px 1px 1px 1px crimson;
+    color: #2f2f2f;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+/* imágenes de bíceps */
+
+#containerEjercicios{
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#biceps, #triceps, #pecho, #dorsales, #hombro, #antebrazos, #piernas {
+    margin-top: 2em;
+    display: none;
+    flex-direction: column;
+}
+
+#biceps img, #triceps img, #pecho img, #dorsales img,
+#hombro img, #antebrazos img, #piernas img {
+    margin: 1em 1em;
+    max-width: 108px;
+    min-height: 108px;
+    cursor: pointer;
 }
