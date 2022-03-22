@@ -1,18 +1,187 @@
 * {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
+    padding: 0;
+    background: url('../../img/bgCrear.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.titular {
+    color: crimson;
+    font-size: 6em;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: sans-serif;
+    margin: 0.5em 0 0.5em 0.5em;
     padding: 0;
 }
 
-.tabla{
-    border: 1px solid black;
-    width: 40%;
-    height: 30em;
+/* Barra de navegación */
+
+nav {
+    margin: 0 0 0 0;
+    margin-bottom: 0.3em;
 }
 
-.tabla thead th {
-    border: 1px solid black;
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
 }
 
-.tabla tbody tr td {
-    border: 1px solid black;
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 3em;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    padding: 1em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 3px crimson;
+}
+
+nav ul li a:hover {
+    transition: 0.1s ease;
+    border-bottom: 2px solid crimson;
+    color: crimson;
+    text-shadow: none;
+}
+
+/* Main1 */
+
+#main1 {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titularBloque {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+}
+
+#containerSeleccionar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3em 2em;
+
+}
+
+.seleccionar {
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    align-self: center;
+}
+
+#containerBloque {
+    display: flex;
+    justify-content: center;
+}
+
+#containerBloque div {
+    color: #fff;
+    background-color: crimson;
+    width: 15%;
+    padding: 0.3em;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 1em;
+}
+
+#containerBloque div:hover {
+    color: crimson;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+#containerTabla {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos de la tabla */
+
+#containerTabla {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+table {
+    width: auto;
+    height: 20em;
+    color: #fff;
+    border-collapse: collapse;
+
+}
+
+table thead th {
+    padding: 1em;
+    font-family: sans-serif;
+    background-color: #2f2f2f;
+    border: 1px solid #fff;
+}
+
+table thead th:hover {
+    transition: 0.1s ease;
+    background: #fff;
+    color: crimson;
+    cursor: pointer;
+}
+
+table tbody tr td {
+    border: 1px solid #fff;
+    padding: 1em;
+    background-color: crimson;
+    opacity: 0.3;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1em 0 1em 3em;
+}
+
+.btn {
+    color: #fff;
+    font-size: 1em;
+    padding: 1em;
+    cursor: pointer;
+    background-color: #2f2f2f;
+    font-weight: bolder;
+
+}
+
+.btn:hover {
+    transition: 0.1s ease;
+    background: #fff;
+    color: crimson;
 }
