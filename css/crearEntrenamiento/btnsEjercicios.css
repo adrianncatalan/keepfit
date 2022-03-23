@@ -1,0 +1,35 @@
+/* Estilos de los botones ejercicios */
+
+#containerEjercicios {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+
+}
+
+#btnsGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2.5em;
+}
+
+#btnsGroup button {
+    padding: 1em;
+    margin-right: 1em;
+    font-family: 1em;
+    background: crimson;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#btnsGroup button:hover {
+    box-shadow: 1px 1px 1px 1px crimson;
+    color: #2f2f2f;
+    background: #fff;
+    transition: 0.3s ease;
+}

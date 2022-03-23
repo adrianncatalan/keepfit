@@ -1,1 +1,10 @@
 @import url('./crearEntrenamiento.css');
+@import url('../common/nav.css');
+@import url('./btnReinicio.css');
+@import url('./btnsEjercicios.css');
+@import url('./imgContainers.css');
+@import url('./main1.css');
+@import url('./tabla.css');
+@import url('./seriesReps.css');
+@import url('../common/footer.css');
+@import url('./instrucciones.css');

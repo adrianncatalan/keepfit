@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
                 var estilos = window.getComputedStyle(containerBloque);
                 var display = estilos.getPropertyValue('display');
                 if (display == 'flex') {
-                    console.log('hola1')
+                    document.getElementById('addTraining').style.display = 'inline';
                     containerBloque.style.setProperty('display', 'none');
                     document.getElementsByClassName('seleccionar')[0].style.setProperty('display', 'none');
                     var btn = document.createElement('button');
@@ -24,7 +24,6 @@ window.addEventListener('load', () => {
                     document.body.insertBefore(containerBtn, document.getElementById('main1'));
                     var containerBtn = document.getElementsByClassName('containerBtn');
                     containerBtn[0].addEventListener('click', () => {
-                        console.log("hola2");
                         containerBtn[0].style.setProperty('display', 'none');
                         containerBloque.style.setProperty('display', 'flex');
                         reiniciar = true;

@@ -1,0 +1,33 @@
+#containerIns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: #2f2f2f;
+    text-align: center;
+    align-items: center;
+}
+
+#containerIns h2 {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-top: 2em;
+}
+
+#containerIns ol {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+}
+
+#containerIns ol li {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-top: 1em;
+}
+
+#containerIns ol li span{
+    color: crimson;
+}

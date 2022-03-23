@@ -1,0 +1,22 @@
+/* Estilos del botón creado */
+
+.containerBtn {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2em 0 0.1em 3em;
+}
+
+.btn {
+    color: #fff;
+    font-size: 1em;
+    padding: 1em;
+    cursor: pointer;
+    background-color: #2f2f2f;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    transition: 0.1s ease;
+    background: #fff;
+    color: crimson;
+}

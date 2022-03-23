@@ -1,0 +1,32 @@
+/* Estilos de contneedores de imágenes */
+
+#containerEjercicios {
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#containerEjercicios h2 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#biceps, #triceps, #pecho, #dorsales, #hombros, #antebrazos, #piernas {
+    margin-top: 2em;
+    display: none;
+    flex-direction: column;
+}
+
+#biceps img, #triceps img, #pecho img, #dorsales img,
+#hombros img, #antebrazos img, #piernas img {
+    margin: 1em 1em;
+    max-width: 108px;
+    min-height: 108px;
+    cursor: pointer;
+}
+
+#biceps img:hover, #triceps img:hover, #pecho img:hover, #dorsales img:hover,
+#hombros img:hover, #antebrazos img:hover, #piernas img:hover {
+    box-shadow: 2px 2px 3px 2px #fff;
+    transition: 0.3s ease;
+}
