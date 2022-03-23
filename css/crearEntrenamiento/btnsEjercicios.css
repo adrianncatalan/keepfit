@@ -1,5 +1,9 @@
 /* Estilos de los botones ejercicios */
 
+.h2group {
+    margin: 1.5em 0 1em 0;
+}
+
 #containerEjercicios {
     display: flex;
     flex-direction: row;
@@ -10,12 +14,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 2.5em;
 }
 
 #btnsGroup button {
     padding: 1em;
     margin-right: 1em;
+    margin-left: 1em;
     font-family: 1em;
     background: crimson;
     cursor: pointer;

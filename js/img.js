@@ -8,14 +8,14 @@ window.addEventListener('click', () => {
                     Array.from(imgBiceps).forEach((e) => {
                         e.style.cssText = 'box-shadow: 2px 2px 2px 2px #fff';
                     });
-                    e.style.cssText = 'box-shadow: 2px 2px 2px 2px crimson';
+                    e.style.cssText = 'box-shadow: 5px 5px 5px 5px crimson';
                     break;
                 case 'imgTriceps':
                     let imgTriceps = document.getElementsByClassName('imgTriceps');
                     Array.from(imgTriceps).forEach((e) => {
                         e.style.cssText = 'box-shadow: 2px 2px 2px 2px #fff';
                     });
-                    e.style.cssText = 'box-shadow: 2px 2px 2px 2px crimson';
+                    e.style.cssText = 'box-shadow: 5px 5px 5px 5px crimson';
                     break;
 
                 case 'imgPecho':
@@ -23,7 +23,7 @@ window.addEventListener('click', () => {
                     Array.from(imgPecho).forEach((e) => {
                         e.style.cssText = 'box-shadow: 2px 2px 2px 2px #fff';
                     });
-                    e.style.cssText = 'box-shadow: 2px 2px 2px 2px crimson';
+                    e.style.cssText = 'box-shadow: 5px 5px 5px 5px crimson';
                     break;
 
                 case 'imgHombros':
@@ -31,7 +31,7 @@ window.addEventListener('click', () => {
                     Array.from(imgHombros).forEach((e) => {
                         e.style.cssText = 'box-shadow: 2px 2px 2px 2px #fff';
                     });
-                    e.style.cssText = 'box-shadow: 2px 2px 2px 2px crimson';
+                    e.style.cssText = 'box-shadow: 5px 5px 5px 5px crimson';
                     break;
 
                 case 'imgDorsales':
@@ -39,7 +39,7 @@ window.addEventListener('click', () => {
                     Array.from(imgDorsales).forEach((e) => {
                         e.style.cssText = 'box-shadow: 2px 2px 2px 2px #fff';
                     });
-                    e.style.cssText = 'box-shadow: 2px 2px 2px 2px crimson';
+                    e.style.cssText = 'box-shadow: 5px 5px 5px 5px crimson';
                     break;
 
                 case 'imgAntebrazos':
@@ -47,7 +47,7 @@ window.addEventListener('click', () => {
                     Array.from(imgAntebrazos).forEach((e) => {
                         e.style.cssText = 'box-shadow: 2px 2px 2px 2px #fff';
                     });
-                    e.style.cssText = 'box-shadow: 2px 2px 2px 2px crimson';
+                    e.style.cssText = 'box-shadow: 5px 5px 5px 5px crimson';
                     break;
 
                 case 'imgPiernas':
@@ -55,7 +55,7 @@ window.addEventListener('click', () => {
                     Array.from(imgPiernas).forEach((e) => {
                         e.style.cssText = 'box-shadow: 2px 2px 2px 2px #fff';
                     });
-                    e.style.cssText = 'box-shadow: 2px 2px 2px 2px crimson';
+                    e.style.cssText = 'box-shadow: 5px 5px 5px 5px crimson';
                     break;
 
                 default:
