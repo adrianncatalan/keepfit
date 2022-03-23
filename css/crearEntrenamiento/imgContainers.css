@@ -12,9 +12,9 @@
 }
 
 #biceps, #triceps, #pecho, #dorsales, #hombros, #antebrazos, #piernas {
-    margin-top: 2em;
     display: none;
     flex-direction: column;
+    margin-top: 2em;
 }
 
 #biceps img, #triceps img, #pecho img, #dorsales img,
