@@ -1,3 +1,5 @@
+@import url('../colors/colors.css');
+
 * {
     box-sizing: border-box;
 }
@@ -5,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('../../img/login.jpg') center center;
+    background: url('../../img/backgrounds/login.jpg') center center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -28,7 +30,7 @@ body {
 }
 
 .titular h1 {
-    color: crimson;
+    color: var(--color-complementario-2);
     font-size: 6em;
     text-shadow: 3px 3px 3px #fff;
     font-family: sans-serif;
@@ -38,7 +40,7 @@ body {
 
 .titular p {
     font-family: sans-serif;
-    color: #2f2f2f;
+    color: var(--color-primario);
     font-size: 2em;
     margin-bottom: 1.5em;
 }
@@ -68,12 +70,17 @@ input {
 .formulario a {
     margin-bottom: 2em;
     text-decoration: none;
-    color: crimson;
+    color: var(--color-primario);
     font-family: sans-serif;
+    
+}
+
+.formulario a:hover {
+    text-shadow: 0.5px 0.5px 0.5px var(--color-primario);
 }
 
 input[type="submit"] {
-    background-color: crimson;
+    background-color: var(--color-secundario);
     color: #fff;
     font-weight: bold;
     font-size: 1em;
@@ -88,7 +95,7 @@ input[type="submit"]:hover {
 }
 
 input[type="button"] {
-    background-color: #4caf50;
+    background-color: var(--color-complementario-2);
     color: #fff;
     font-weight: bold;
     font-size: 1em;
@@ -105,6 +112,6 @@ input[type="button"]:hover {
 .linea {
     width: 250%;
     height: 1px;
-    background-color: #2f2f2f;
+    background-color: var(--color-primario);
     margin-bottom: 2.4em;
 }
