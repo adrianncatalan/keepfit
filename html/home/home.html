@@ -22,60 +22,93 @@
 
 <body>
     <header>
-        <div id="part1">
-            <img class = "user" src="img/user.png">
-            <p>Hola, Usuario</p>
-            <p>Nos alegra verte de nuevo!</p>
-            <br>
-        </div>
-        <div id="part2">
-            <a href=""><img class = "menu-icon" src="img/menu.png"></a>
-            <div>
-                <a href="#"><h3>Mi perfil</h3></a>
-                <a href="#"><p>Reinicio de progreso</p></a>
-                <a href="#"><p>Ajustes</p></a>
-                <a href="#"><p>Aviso legal y condiciones de uso</p></a>
-                <a href="#"><p>Politica de privacidad</p></a>
-                <a href="#"><p>Política de cookies</p></a>
-            </div>
-        </div>
+        <h1>KeepFit</h1>
+        <br>
+        <nav class="navText">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Nutrición</a></li>
+                <li><a href="">Ejercicio</a></li>
+                <li><a href="">Nosotros</a></li>
+            </ul>
+        </nav>
     </header>
     <section>
-        <article>
-            <h1 class = "title">Tus datos</h1>
-            <div id = "all">
-                
-                <div class = "title">
-                    <p><b>Edad</b></p>
-                    <p><b>Peso</b></p>
-                    <p><b>IMC</b></p>
-                    <p><b>Kcal por día</b></p>
+        <article class="first">
+            <div id="part1">
+                <img class="user" src="img/user.png">
+                <button id="link-Perfil" onclick="openAccount()">Perfil</button>
+                <div class="part1-content">
+                    <p>Bienvenido de nuevo, David</p>
+                    <p>¡Nos alegra verte por aquí de nuevo!</p>
                 </div>
-                <hr>
-                <div>
-                    <p>31 años</p>
-                    <p>92 Kg</p>
-                    <p>24.5</p>
-                    <p>4500 kcal</p>
-                </div>
-                <hr>
-                <div>
-                    <p>Adultez</p>
-                    <p>Alto</p>
-                    <p>Promedio</p>
-                    <p>Alto</p>
+            </div>
+            <div id="part2">
+                <!-- <a href=""><img class = "menu-icon" src="img/menu.png"></a> -->
+                <div class="part2-content">
+                    <div>
+                        <p><b>Edad</b></p></li>
+                        </p><p><b>Peso</b></p>
+                        <p><b>Altura</b></p>
+                        <p><b>IMC</b></p>
+                        <p><b>Kcal por día</b></p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p>30 años</p>
+                        <p>85 Kg</p>
+                        <p>1.85 cm</p>
+                        <p>25%</p>
+                        <p>3500 kcal</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Adultez</p>
+                        <p>Alto</p>                        
+                        <br>
+                        <p></p>
+                        <p>Media</p>
+                        <p>Volumen</p>
+                    </div>
                 </div>
             </div>
         </article>
-        <article>
-            <h1 class = "title">Tus secciones</h1>
-            <div class = "sections-buttons">
-                <button class = "buttons">Nutrición</button>
-                <button class = "buttons">Entrenamientos</button>
-                <button class = "buttons">Lista de ejercicios</button>
-            </div>
-        </article>
+        <hr id="center">
+        <div class="sections">
+            <article class = "second">
+                <h3>MIS SECCIONES</h3>
+                <button>
+                    MI NUTRICION | Elabora tu propia tabla de nutrición o 
+                    te damos una en función de tu objetivo
+                </button>
+                <br>
+                <button>
+                    MIS ENTRENAMIENTOS | Elabora tu propia tabla de entrenamientos o 
+                    te damos una en función de tu objetivo 
+                </button>
+                <br>
+                <button>
+                    LISTA DE EJERCICIOS | Echa un vistazo a una lida 
+                    completa de ejercicios por músculo
+                </button>
+                <br>
+            </article>
+            <hr>
+            <article class = "third">
+                <h3>CONSEJOS</h3>
+                <div class = "tip">
+                    <p>
+                        "Los ganadores nunca se rinden y los que se rinden nunca ganan"
+                    </p>
+                    <p>
+                        "Gana si puedes, pierde si es necesario, pero ¡nunca abandones!"
+                    </p>
+                </div>
+                <br>
+            </article>
+        </div>
     </section>
+    <br>
     <footer>
         <div class = "content">
             <a href=""><p>Nosotros</p></a>
@@ -98,11 +131,9 @@
             <p>© 2022 KeepFit S.L.</p>
         </div>
 
-        <img src="img/logo.png" alt="">
-
+        <!-- <img src="img/logo.png" alt=""> -->
+        <h1 id="footer-logo">KeepFit</h1>
     </footer>
-    
-
 </body>
 
 </html>
