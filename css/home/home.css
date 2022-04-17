@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Code+Pro:wght@900&display=swap');
 /*HEADER*/
 /*
 #03B5AA
 #023436
 #FFFFFF
 */
+
+
+body *{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
 
 /*Link*/
 a{
@@ -26,10 +33,11 @@ a:hover{
 
 /*Header and Nav*/
 h1{
-
+    color: #023436;
     margin-left:5%;
     margin-top:2%;
     font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
 }
 nav li{
     display: inline-block;
