@@ -69,7 +69,7 @@ input {
 
 .formulario a {
     margin-bottom: 2em;
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--color-primario);
     font-family: sans-serif;
     
@@ -80,7 +80,7 @@ input {
 }
 
 input[type="submit"] {
-    background-color: var(--color-secundario);
+    background-color: crimson;
     color: #fff;
     font-weight: bold;
     font-size: 1em;
@@ -92,6 +92,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     transition: all ease 0.3s;
     opacity: 1;
+    background-color: #dc143cb3;
 }
 
 input[type="button"] {
