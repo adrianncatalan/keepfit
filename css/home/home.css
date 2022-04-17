@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Code+Pro:wght@900&display=swap');
+
 /*HEADER*/
 /*
 #03B5AA
@@ -15,11 +16,13 @@ body *{
 /*Link*/
 a{
     text-decoration: none;
-    color: black;
+    color: #023436;
+
 }
 
 a:hover{
-    background-color: #03B5AA;
+    text-decoration: underline;
+    animation-timing-function: ease-in-out;
 }
 
 #link-Perfil{
@@ -47,6 +50,7 @@ nav li{
 nav ul{
     display: flex;
     justify-content: space-around;
+
 }
 
 /*Section*/
