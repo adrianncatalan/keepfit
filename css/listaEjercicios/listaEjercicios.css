@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Code+Pro:wght@900&display=swap');
 
-
+body{
+    background-color: black;
+}
 body *{
-    font-family: 'Montserrat', sans-serif;
+    font-family:sans-serif;
     color: black;
     
 }
@@ -10,7 +12,7 @@ body *{
 /*Link*/
 a{
     text-decoration: none;
-    color: #023436;
+    color: white;
 
 }
 
@@ -30,7 +32,7 @@ a:hover{
 
 /*Header and Nav*/
 h1{
-    color: #023436;
+    color: #32FC58;
     margin-left:5%;
     margin-top:2%;
     font-size: 60px;
@@ -121,8 +123,8 @@ p{
 }
 
 .left-container .content:hover{
-    box-shadow: -5px 5px 5px 0px #03b5aa inset;
+    box-shadow: -5px 5px 5px 0px #32FC58 inset;
 }
 .right-container .content:hover{
-    box-shadow: 5px 5px 5px 0px #03b5aa inset;
+    box-shadow: 5px 5px 5px 0px #32FC58 inset;
 }
