@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Code+Pro:wght@900&display=swap');
+
 /*HEADER*/
 /*
 #03B5AA
@@ -5,14 +7,22 @@
 #FFFFFF
 */
 
-/*Link*/
-a{
-    text-decoration: none;
+
+body *{
+    font-family: 'Montserrat', sans-serif;
     color: black;
 }
 
+/*Link*/
+a{
+    text-decoration: none;
+    color: #023436;
+
+}
+
 a:hover{
-    background-color: #03B5AA;
+    text-decoration: underline;
+    animation-timing-function: ease-in-out;
 }
 
 #link-Perfil{
@@ -26,10 +36,11 @@ a:hover{
 
 /*Header and Nav*/
 h1{
-
+    color: #023436;
     margin-left:5%;
     margin-top:2%;
     font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
 }
 nav li{
     display: inline-block;
@@ -39,6 +50,7 @@ nav li{
 nav ul{
     display: flex;
     justify-content: space-around;
+
 }
 
 /*Section*/

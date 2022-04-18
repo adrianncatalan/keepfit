@@ -1,4 +1,5 @@
 @import url('../colors/colors.css');
+@import url('common.css');
 
 * {
     box-sizing: border-box;
@@ -13,6 +14,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+body *{
+    font-family: 'Montserrat', sans-serif ;
 }
 
 .container {
@@ -33,13 +38,13 @@ body {
     color: var(--color-complementario-2);
     font-size: 6em;
     text-shadow: 3px 3px 3px #fff;
-    font-family: sans-serif;
+    font-family: 'Source Code Pro', monospace;
     margin: 0;
     margin-top: 0.5em;
+    color: #023436;
 }
 
 .titular p {
-    font-family: sans-serif;
     color: var(--color-primario);
     font-size: 2em;
     margin-bottom: 1.5em;
@@ -80,7 +85,7 @@ input {
 }
 
 input[type="submit"] {
-    background-color: crimson;
+    background-color: #023436;
     color: #fff;
     font-weight: bold;
     font-size: 1em;
@@ -92,7 +97,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     transition: all ease 0.3s;
     opacity: 1;
-    background-color: #dc143cb3;
+    background-color: #03b5aa;
 }
 
 input[type="button"] {
